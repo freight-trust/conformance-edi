@@ -1,0 +1,279 @@
+<loop Name='EDI Document'>
+<loop Name='INTERCHANGE HEADER'>
+ <segment Name='ISA'>
+  <element>01</element>
+  <element>0000000000</element>
+  <element>01</element>
+  <element>ABCCO     </element>
+  <element>12</element>
+  <element>4405197800     </element>
+  <element>01</element>
+  <element>999999999      </element>
+  <element>101127</element>
+  <element>1719</element>
+  <element>U</element>
+  <element>00400</element>
+  <element>000003438</element>
+  <element>0</element>
+  <element>P</element>
+  <element>&gt;</element>
+  </segment>
+<loop Name='FUNCTIONAL GROUP'>
+ <segment Name='GS'>
+  <element>PO</element>
+  <element>4405197800</element>
+  <element>999999999</element>
+  <element>20101127</element>
+  <element>1719</element>
+  <element>1421</element>
+  <element>X</element>
+  <element>004010VICS</element>
+  </segment>
+<loop Name='ST HEADER'>
+ <segment Name='ST'>
+  <element>850</element>
+  <element>000000010</element>
+  </segment>
+ <segment Name='BEG'>
+  <element>00</element>
+  <element>SA</element>
+  <element>08292233294</element>
+  <element></element>
+  <element>20101127</element>
+  <element>610385385</element>
+  </segment>
+<loop Name='2000A'>
+ <segment Name='ITD'>
+  <element>14</element>
+  <element>3</element>
+  <element>2</element>
+  <element></element>
+  <element>45</element>
+  <element></element>
+  <element>46</element>
+  </segment>
+ <segment Name='DTM'>
+  <element>002</element>
+  <element>20101214</element>
+  </segment>
+ <segment Name='PKG'>
+  <element>F</element>
+  <element>68</element>
+  <element></element>
+  <element></element>
+  <element>PALLETIZE SHIPMENT</element>
+  </segment>
+ <segment Name='PKG'>
+  <element>F</element>
+  <element>66</element>
+  <element></element>
+  <element></element>
+  <element>REGULAR</element>
+  </segment>
+ <segment Name='TD5'>
+  <element>A</element>
+  <element>92</element>
+  <element>P3</element>
+  <element></element>
+  <element>SEE XYZ RETAIL ROUTING GUIDE</element>
+  </segment>
+ <segment Name='PO1'>
+  <element>1</element>
+  <element>120</element>
+  <element>EA</element>
+  <element>9.25</element>
+  <element>TE</element>
+  <element>CB</element>
+  <element>065322-117</element>
+  <element>PR</element>
+  <element>RO</element>
+  <element>VN</element>
+  <element>AB3542</element>
+  </segment>
+ <segment Name='PID'>
+  <element>F</element>
+  <element></element>
+  <element></element>
+  <element></element>
+  <element>SMALL WIDGET</element>
+  </segment>
+ <segment Name='PO4'>
+  <element>4</element>
+  <element>4</element>
+  <element>EA</element>
+  <element>PLT94</element>
+  <element></element>
+  <element>3</element>
+  <element>LR</element>
+  <element>15</element>
+  <element>CT</element>
+  </segment>
+ <segment Name='PO1'>
+  <element>2</element>
+  <element>220</element>
+  <element>EA</element>
+  <element>13.79</element>
+  <element>TE</element>
+  <element>CB</element>
+  <element>066850-116</element>
+  <element>PR</element>
+  <element>RO</element>
+  <element>VN</element>
+  <element>RD5322</element>
+  </segment>
+ <segment Name='PID'>
+  <element>F</element>
+  <element></element>
+  <element></element>
+  <element></element>
+  <element>MEDIUM WIDGET</element>
+  </segment>
+ <segment Name='PO4'>
+  <element>2</element>
+  <element>2</element>
+  <element>EA</element>
+  </segment>
+ <segment Name='PO1'>
+  <element>3</element>
+  <element>126</element>
+  <element>EA</element>
+  <element>10.99</element>
+  <element>TE</element>
+  <element>CB</element>
+  <element>060733-110</element>
+  <element>PR</element>
+  <element>RO</element>
+  <element>VN</element>
+  <element>XY5266</element>
+  </segment>
+ <segment Name='PID'>
+  <element>F</element>
+  <element></element>
+  <element></element>
+  <element></element>
+  <element>LARGE WIDGET</element>
+  </segment>
+ <segment Name='PO4'>
+  <element>6</element>
+  <element>1</element>
+  <element>EA</element>
+  <element>PLT94</element>
+  <element></element>
+  <element>3</element>
+  <element>LR</element>
+  <element>12</element>
+  <element>CT</element>
+  </segment>
+ <segment Name='PO1'>
+  <element>4</element>
+  <element>76</element>
+  <element>EA</element>
+  <element>4.35</element>
+  <element>TE</element>
+  <element>CB</element>
+  <element>065308-116</element>
+  <element>PR</element>
+  <element>RO</element>
+  <element>VN</element>
+  <element>VX2332</element>
+  </segment>
+ <segment Name='PID'>
+  <element>F</element>
+  <element></element>
+  <element></element>
+  <element></element>
+  <element>NANO WIDGET</element>
+  </segment>
+ <segment Name='PO4'>
+  <element>4</element>
+  <element>4</element>
+  <element>EA</element>
+  <element>PLT94</element>
+  <element></element>
+  <element>6</element>
+  <element>LR</element>
+  <element>19</element>
+  <element>CT</element>
+  </segment>
+ <segment Name='PO1'>
+  <element>5</element>
+  <element>72</element>
+  <element>EA</element>
+  <element>7.5</element>
+  <element>TE</element>
+  <element>CB</element>
+  <element>065374-118</element>
+  <element>PR</element>
+  <element>RO</element>
+  <element>VN</element>
+  <element>RV0524</element>
+  </segment>
+ <segment Name='PID'>
+  <element>F</element>
+  <element></element>
+  <element></element>
+  <element></element>
+  <element>BLUE WIDGET</element>
+  </segment>
+ <segment Name='PO4'>
+  <element>4</element>
+  <element>4</element>
+  <element>EA</element>
+  </segment>
+ <segment Name='PO1'>
+  <element>6</element>
+  <element>696</element>
+  <element>EA</element>
+  <element>9.55</element>
+  <element>TE</element>
+  <element>CB</element>
+  <element>067504-118</element>
+  <element>PR</element>
+  <element>RO</element>
+  <element>VN</element>
+  <element>DX1875</element>
+  </segment>
+ <segment Name='PID'>
+  <element>F</element>
+  <element></element>
+  <element></element>
+  <element></element>
+  <element>ORANGE WIDGET</element>
+  </segment>
+ <segment Name='PO4'>
+  <element>6</element>
+  <element>6</element>
+  <element>EA</element>
+  <element>PLT94</element>
+  <element></element>
+  <element>3</element>
+  <element>LR</element>
+  <element>10</element>
+  <element>CT</element>
+  </segment>
+ <segment Name='CTT'>
+  <element>6</element>
+  </segment>
+</loop>
+<loop Name='END ST HEADER'>
+ <segment Name='SE'>
+  <element>33</element>
+  <element>000000010</element>
+  </segment>
+</loop>
+</loop>
+<loop Name='END GS LOOP'>
+ <segment Name='GE'>
+  <element>1</element>
+  <element>1421</element>
+  </segment>
+</loop>
+</loop>
+<loop Name='END ISA LOOP'>
+ <segment Name='IEA'>
+  <element>1</element>
+  <element>000003438</element>
+  </segment>
+</loop>
+</loop>
+</loop>
